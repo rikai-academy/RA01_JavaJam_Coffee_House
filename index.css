@@ -30,7 +30,7 @@ nav a {
 
 footer {
   background-color: #d2b48c;
-  font-size: 0.60em;
+  font-size: 0.6em;
   text-align: center;
   padding-bottom: 8px;
   border: 2px solid #221811;
@@ -71,6 +71,7 @@ main .details p {
   min-width: 900px;
   max-width: 1280px;
 }
+
 main h4 {
   background-color: #d2b48c;
   font-size: 1.2em;
