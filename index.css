@@ -84,7 +84,7 @@ main h4 {
   font-size: 1.2em;
 }
 
-main div, h2, h3, h4, p, ul, dl {
+main div,h2,h3,h4,p,ul,dl {
   padding: 0 2em 0 3em;
 }
 
@@ -101,13 +101,13 @@ nav a:link {
 }
 
 nav a:hover {
-  color: #cc9933;
+  color: #c93;
 }
 
 nav a:visited {
   color: #d2b48c;
 }
 
-header, nav, main, footer {
+header,nav,main,footer {
   display: block;
 }
