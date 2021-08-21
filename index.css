@@ -5,6 +5,7 @@ body {
   width: 70%;
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
 }
 
 header {
@@ -22,6 +23,8 @@ nav {
   font-weight: bold;
   font-size: 1.5em;
   padding-top: 10px;
+  float: left;
+  width: 200px;
 }
 
 nav a {
@@ -37,13 +40,17 @@ footer {
 }
 
 main {
-  padding: 0 2em 2em 2em;
+  padding: 0 0 0 0;
+  margin: 0 0 0 200px;
   display: block;
+  background-color: #fef6c2;
 }
 
 main .main-img-content {
-  float: right;
-  margin-top: -2.5rem;
+  float: left;
+  background-size: 100%;
+  padding: 0 2em 2em 0;
+  width: 100%;
 }
 
 header .logo {
@@ -67,7 +74,7 @@ main .details p {
 }
 
 #wrapper {
-  background-color: #fef6c2;
+  background-color: #231814;
   min-width: 900px;
   max-width: 1280px;
 }
@@ -75,5 +82,32 @@ main .details p {
 main h4 {
   background-color: #d2b48c;
   font-size: 1.2em;
-  padding: 0.5em;
+}
+
+main div, h2, h3, h4, p, ul, dl {
+  padding: 0 2em 0 3em;
+}
+
+main .detail-menu {
+  height: 200px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav a:link {
+  color: #fef6c2;
+}
+
+nav a:hover {
+  color: #cc9933;
+}
+
+nav a:visited {
+  color: #d2b48c;
+}
+
+header, nav, main, footer {
+  display: block;
 }
