@@ -70,7 +70,7 @@ main .details {
 }
 
 main .details p {
-  padding-top: 83px;
+  padding: 83px 2em 0 3em;
 }
 
 #wrapper {
@@ -82,12 +82,12 @@ main .details p {
 main h4 {
   background-color: #d2b48c;
   font-size: 1.2em;
+  padding: 0 2em 0 3em;
 }
 
 main div,
 h2,
 h3,
-p,
 ul,
 dl {
   padding: 0 2em 0 3em;
