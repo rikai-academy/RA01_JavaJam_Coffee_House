@@ -128,6 +128,18 @@ footer {
   display: inline;
 }
 
+#wrapper main p {
+  padding: 0 2em 0 2em;
+}
+
+#wrapper main .detail-menu table tr th {
+  padding: 0 1em 0 0;
+}
+
+#wrapper main .detail-menu table td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
 @media only screen and (max-width: 1024px) {
   body {
     margin: 0;
